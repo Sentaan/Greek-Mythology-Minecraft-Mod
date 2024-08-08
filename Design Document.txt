@@ -1,0 +1,33 @@
+Two new Dimensions:
+THE UNDERWORLD (w/ Tartarus)
+OLYMPUS
+
+OLYMPUS:
+Big Mountain, has a bit of CELESTIAL BRONZE ORE, has AMBROSIA plants
+Has CYCLOPES
+
+CYCLOPES: Can Trade, have professions of TOOLSMITH and ARMOURSMITH, Trade items are CELESTIAL BRONZE, NETHERITE, IMPERIAL GOLD, STYGIAN IRON items
+
+CELESTIAL BRONZE ORE: Requires NETHERITE to break, requires a FURNACE to smelt RAW CELESTIAL BRONZE to CELESTIAL BRONZE
+
+AMBROSIA: Plant that only grows in OLYMPUS, Used in a BREWING STAND with WATER BOTTLE to create NECTAR, EDIBLE, heals 1 heart when eaten
+
+
+THE UNDERWORLD
+Has the River Styx: STYX WATER -> Gets solidified, combined with OBSIDIAN to become STYGIAN IRON
+Has the River Lethe: If players spend too long in the waters they start to loose XP, once they have no XP start to take damage
+
+STYGIAN IRON BLOCK: Requires NETHERITE to break, stats equal to CELESTIAL BRONZE and IMPERIAL GOLD
+
+
+OVERWORLD:
+New Villager Type: PONTIFEX
+New Mobs: SATYR, DRYAD, GORGON, CENTAUR, HARPY, SIREN
+
+PONTIFEX: Has IMPERIAL GOLD as one of its higher trades (level 2/3), Can have IMPERIAL GOLD tools as top level trades
+
+IMPERIAL GOLD: same stats as CELESTIAL BRONZE, STYGIAN IRON (lower Durability)
+
+IMPERIAL GOLD BLOCK: requires NETHERITE to break
+
+
