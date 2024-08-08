@@ -39,3 +39,14 @@ IN GAME NAMES:
 Celestial Bronze -> Olympian Bronze
 Stygian Iron -> Stygian Ice
 Imperial Gold -> Blessed Gold
+
+
+
+
+
+
+
+STRETCH GOALS
+- Bosses for Dimensions
+	- Underworld: A Titan(probs Kronos)/Tartarus/Chaos
+	- Olympus: An Olympian - gives an effect or "blessing" when defeated
