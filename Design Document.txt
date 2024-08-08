@@ -26,6 +26,10 @@ New Mobs: SATYR, DRYAD, GORGON, CENTAUR, HARPY, SIREN
 
 PONTIFEX: Has IMPERIAL GOLD as one of its higher trades (level 2/3), Can have IMPERIAL GOLD tools as top level trades
 
+SATYRS: Gets scared if you approach them, but is angered by you breaking wood
+
+DRYAD: Gets angered if you break wood
+
 IMPERIAL GOLD: same stats as CELESTIAL BRONZE, STYGIAN IRON (lower Durability)
 
 IMPERIAL GOLD BLOCK: requires NETHERITE to break
