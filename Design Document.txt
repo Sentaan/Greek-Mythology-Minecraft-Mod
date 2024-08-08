@@ -31,3 +31,7 @@ IMPERIAL GOLD: same stats as CELESTIAL BRONZE, STYGIAN IRON (lower Durability)
 IMPERIAL GOLD BLOCK: requires NETHERITE to break
 
 
+IN GAME NAMES:
+Celestial Bronze -> Olympian Bronze
+Stygian Iron -> Stygian Ice
+Imperial Gold -> Blessed Gold
