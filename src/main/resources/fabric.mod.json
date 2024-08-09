@@ -3,13 +3,13 @@
 	"id": "greekmythology",
 	"version": "${version}",
 	"name": "Greek Mythology",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod that implements some Greek Mythology into Minecraft",
 	"authors": [
-		"Me!"
+		"Sentaan!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "None Yet",
+		"sources": "https://github.com/Sentaan/Greek-Mythology-Minecraft-Mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/greekmythology/icon.png",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"sentaan.greekmythos.GreekMythologyDataGenerator"
+		],
+		"client-entrypoint": [
+			"sentaan.greekmythos.GreekMythologyClient"
 		]
 	},
 	"mixins": [
