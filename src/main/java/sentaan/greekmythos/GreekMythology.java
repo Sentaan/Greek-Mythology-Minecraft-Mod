@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import sentaan.greekmythos.block.ModBlocks;
+import sentaan.greekmythos.item.ModItems;
 
 public class GreekMythology implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -14,6 +16,7 @@ public class GreekMythology implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

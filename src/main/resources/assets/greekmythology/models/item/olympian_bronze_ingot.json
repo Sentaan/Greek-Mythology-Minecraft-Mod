@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "greekmythology:item/olympian_bronze_ingot"
+  }
+}
