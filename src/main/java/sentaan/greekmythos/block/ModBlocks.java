@@ -17,6 +17,9 @@ public class ModBlocks {
     public static final Block OLYMPIAN_BRONZE_BL0CK = registerBlock("olympian_bronze_block",
             new Block(AbstractBlock.Settings.create().strength(50f,4000f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
+    public static final Block RAW_OLYMPIAN_BRONZE_BLOCK = registerBlock("raw_olympian_bronze_block",
+            new Block(AbstractBlock.Settings.create().strength(50f,4000f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

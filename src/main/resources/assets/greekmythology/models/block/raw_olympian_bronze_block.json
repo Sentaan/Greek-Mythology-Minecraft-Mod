@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "layer0": "greekmythology:raw_olympian_bronze_block"
+  }
+}
