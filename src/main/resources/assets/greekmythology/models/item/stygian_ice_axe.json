@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "greekmythology:item/stygian_ice_axe"
+  }
+}

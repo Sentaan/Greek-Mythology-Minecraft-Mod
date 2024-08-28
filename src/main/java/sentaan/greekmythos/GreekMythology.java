@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import sentaan.greekmythos.block.ModBlocks;
 import sentaan.greekmythos.item.ModItemGroups;
 import sentaan.greekmythos.item.ModItems;
+import sentaan.greekmythos.item.tools.ModTools;
 
 public class GreekMythology implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -20,5 +21,6 @@ public class GreekMythology implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+		ModTools.registerModItems();
 	}
 }

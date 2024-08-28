@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "greekmythology:item/olympian_bronze_pickaxe"
+  }
+}

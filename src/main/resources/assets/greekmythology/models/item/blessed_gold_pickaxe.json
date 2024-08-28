@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "greekmythology:item/blessed_gold_pickaxe"
+  }
+}
