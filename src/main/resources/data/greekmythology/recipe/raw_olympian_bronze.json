@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "greekmythology:raw_olympian_bronze_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "greekmythology:raw_olympian_bronze"
+  }
+}

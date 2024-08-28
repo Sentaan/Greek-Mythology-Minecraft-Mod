@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sentaan.greekmythos.block.ModBlocks;
+import sentaan.greekmythos.item.ModItemGroups;
 import sentaan.greekmythos.item.ModItems;
 
 public class GreekMythology implements ModInitializer {
@@ -18,5 +19,6 @@ public class GreekMythology implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }

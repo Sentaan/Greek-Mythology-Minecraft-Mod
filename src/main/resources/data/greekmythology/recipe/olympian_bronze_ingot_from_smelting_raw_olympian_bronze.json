@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 240,
+  "experience": 3,
+  "group": "olympian_bronze",
+  "ingredient": {
+    "item": "greekmythology:raw_olympian_bronze"
+  },
+  "result": {
+    "id": "greekmythology:olympian_bronze_ingot"
+  }
+}
