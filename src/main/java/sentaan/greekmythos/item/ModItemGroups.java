@@ -21,18 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.OLYMPIAN_BRONZE_INGOT);
                         entries.add(ModBlocks.OLYMPIAN_BRONZE_BL0CK);
                         entries.add(ModBlocks.RAW_OLYMPIAN_BRONZE_BLOCK);
-                    }).build()
-            );
-
-    public static final ItemGroup GREEK_MYTHOS_ITEMS = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(GreekMythology.MOD_ID, "greek_mythos_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.OLYMPIAN_BRONZE_INGOT))
-                    .displayName(Text.translatable("itemgroup.greekmythos.greek_mythos_items"))
-                    .entries((displayContext, entries) -> {
-                        entries.add(ModItems.RAW_OLYMPIAN_BRONZE);
-                        entries.add(ModItems.OLYMPIAN_BRONZE_INGOT);
-                        entries.add(ModBlocks.OLYMPIAN_BRONZE_BL0CK);
-                        entries.add(ModBlocks.RAW_OLYMPIAN_BRONZE_BLOCK);
+                        entries.add(ModBlocks.OLYMPIAN_BRONZE_ORE);
                     }).build()
             );
 

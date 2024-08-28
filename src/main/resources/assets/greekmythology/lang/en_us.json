@@ -1,10 +1,11 @@
 {
   "item.greekmythology.olympian_bronze_ingot": "Olympian Bronze Ingot",
   "item.greekmythology.raw_olympian_bronze": "Raw Olympian Bronze",
+  "item.greekmythology.blue_hairbrush": "Blue Hairbrush",
 
   "block.greekmythology.olympian_bronze_block": "Block of Olympian Bronze",
   "block.greekmythology.raw_olympian_bronze_block": "Block of Raw Olympian Bronze",
+  "block.greekmythology.olympian_bronze_ore": "Olympian Bronze Ore",
 
-  "itemgroup.greekmythos.greek_mythos_items": "Greek Mythos Items",
   "itemgroup.greekmythos.olympian_items": "Olympian Items"
 }
