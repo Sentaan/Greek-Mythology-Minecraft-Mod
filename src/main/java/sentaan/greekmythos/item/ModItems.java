@@ -14,6 +14,9 @@ public class ModItems {
     public static final Item OLYMPIAN_BRONZE_INGOT = registerItem("olympian_bronze_ingot", new Item(new Item.Settings()));
     public static final Item RAW_OLYMPIAN_BRONZE = registerItem("raw_olympian_bronze", new Item(new Item.Settings()));
     public static final Item BLUE_HAIRBRUSH = registerItem("blue_hairbrush", new BlueHairBrushItem(new Item.Settings().maxDamage(32)));
+    public static final Item STYGIAN_ICE_FRAGMENT = registerItem("stygian_ice_fragment", new Item(new Item.Settings()));
+    public static final Item STYGIAN_ICE_SHARD = registerItem("stygian_ice_shard", new Item(new Item.Settings()));
+    public static final Item BLESSED_GOLD_INGOT = registerItem("blessed_gold_ingot",new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GreekMythology.MOD_ID,name),item);
@@ -24,6 +27,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(OLYMPIAN_BRONZE_INGOT);
             entries.add(RAW_OLYMPIAN_BRONZE);
+            entries.add(STYGIAN_ICE_FRAGMENT);
+            entries.add(STYGIAN_ICE_SHARD);
+            entries.add(BLESSED_GOLD_INGOT);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(BLUE_HAIRBRUSH);

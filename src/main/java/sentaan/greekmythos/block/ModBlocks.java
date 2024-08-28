@@ -17,13 +17,16 @@ import sentaan.greekmythos.GreekMythology;
 public class ModBlocks {
 
     public static final Block OLYMPIAN_BRONZE_BL0CK = registerBlock("olympian_bronze_block",
-            new Block(AbstractBlock.Settings.create().strength(50f,4000f).requiresTool().sounds(BlockSoundGroup.METAL)));
+            new Block(AbstractBlock.Settings.create().strength(50f,1200f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     public static final Block RAW_OLYMPIAN_BRONZE_BLOCK = registerBlock("raw_olympian_bronze_block",
-            new Block(AbstractBlock.Settings.create().strength(50f,4000f).requiresTool().sounds(BlockSoundGroup.METAL)));
+            new Block(AbstractBlock.Settings.create().strength(50f,1200f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     public static final Block OLYMPIAN_BRONZE_ORE = registerBlock("olympian_bronze_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),AbstractBlock.Settings.create().strength(50f,4000f).requiresTool()));
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),AbstractBlock.Settings.create().strength(50f,1200f).requiresTool()));
+
+    public static final Block MARBLE = registerBlock("marble",
+            new Block(AbstractBlock.Settings.create().strength(14f,9f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
 
     private static Block registerBlock(String name, Block block) {

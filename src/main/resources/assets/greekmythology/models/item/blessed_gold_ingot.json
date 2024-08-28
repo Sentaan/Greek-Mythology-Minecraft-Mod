@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "greekmythology:item/blessed_gold_ingot"
+  }
+}
