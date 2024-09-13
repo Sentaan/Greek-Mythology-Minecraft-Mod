@@ -18,13 +18,6 @@ import java.util.Map;
 
 public class BlueHairBrushItem extends Item {
 
-    public static final Map<Block, Block> CHISEL_MAP =
-            Map.of(
-                    Blocks.STONE, Blocks.STONE_BRICKS,
-                    Blocks.END_STONE, Blocks.END_STONE_BRICKS,
-                    Blocks.DEEPSLATE, Blocks.DEEPSLATE_BRICKS
-            );
-
     public BlueHairBrushItem(Settings settings) {
         super(settings);
     }

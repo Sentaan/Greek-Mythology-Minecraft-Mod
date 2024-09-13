@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item STYGIAN_ICE_FRAGMENT = registerItem("stygian_ice_fragment", new Item(new Item.Settings()));
     public static final Item STYGIAN_ICE_SHARD = registerItem("stygian_ice_shard", new Item(new Item.Settings()));
     public static final Item BLESSED_GOLD_INGOT = registerItem("blessed_gold_ingot",new Item(new Item.Settings()));
+    public static final Item HORSE_HAIR = registerItem("horse_hair",new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GreekMythology.MOD_ID,name),item);
@@ -30,6 +31,7 @@ public class ModItems {
             entries.add(STYGIAN_ICE_FRAGMENT);
             entries.add(STYGIAN_ICE_SHARD);
             entries.add(BLESSED_GOLD_INGOT);
+            entries.add(HORSE_HAIR);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(BLUE_HAIRBRUSH);
